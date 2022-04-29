@@ -19,6 +19,8 @@ class JourneyAdapter: RecyclerView.Adapter<JourneyAdapter.JourneyViewHolder>() {
 
         override fun areItemsTheSame(oldItem: Journey, newItem: Journey): Boolean {
             return oldItem.id == newItem.id
+
+//love
         }
 
         override fun areContentsTheSame(oldItem: Journey, newItem: Journey): Boolean {
